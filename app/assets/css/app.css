@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  padding: 0;
+  margin: 0; }
+
+img {
+  height: 25em; }
+
+div {
+  display: inline-block;
+  text-align: center;
+  font-size: 1em; }
+
+div .filmBlock {
+  color: #7a15da;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid #7a15da;
+  border-radius: 3px; }
+
+div .ul {
+  display: grid;
+  grid-gap: 1em; }
+  @media (min-width: 1920px) {
+    div .ul {
+      grid-template-columns: repeat(4, 1fr); } }
+
+.container {
+  width: 100%; }
+
+#app {
+  width: 100%; }
+
+.header {
+  background: #45dFFD;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 40px; }
+
+.dashboard {
+  padding: 0 40px; }
+
+.status {
+  color: red; }

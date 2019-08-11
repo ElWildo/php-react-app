@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 25em;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+}
+
+div .filmBlock {
+    color: rgb(122, 21, 218);
+    margin: 1em;
+    padding: 0.25em 1em;
+    border: 2px solid rgb(122, 21, 218);
+    border-radius: 3px;
+}
+
+div .ul {
+    @media (min-width: 1920px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    display: grid;
+    grid-gap: 1em;
+}
+
+.container {
+    width: 100%
+}
+
+#app {
+    width: 100%
+}
+
+@import "Header";
+.dashboard {
+    padding: 0 40px;
+}
+
+.status {
+    color: red;
+}
